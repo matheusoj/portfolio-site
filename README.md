@@ -1,6 +1,6 @@
 # Portfólio · Matheus Jorge
 
-Portfólio pessoal de Matheus Jorge, Product Designer e UX Lead. Site estático em HTML e CSS puro — sem build, sem dependências, hospedado no Cloudflare Pages.
+Portfólio pessoal de Matheus Jorge, Product Designer e UX Lead. Site estático em HTML e CSS puro — sem build, sem dependências, hospedado no Cloudflare Pages em [matheusojorge.pages.dev](https://matheusojorge.pages.dev).
 
 ## Estrutura
 
@@ -27,7 +27,7 @@ npx serve .
 O deploy é feito no Cloudflare Pages via Wrangler:
 
 ```
-npx wrangler pages deploy . --project-name=matheusjorge
+npx wrangler pages deploy . --project-name=matheusojorge
 ```
 
 Alternativa com Git: no painel do Cloudflare Pages, conecte o repositório do GitHub ("Connect to Git"), deixe o build command vazio e use `/` como output directory. Assim, cada push na branch principal publica automaticamente.
