@@ -148,11 +148,11 @@ img { max-width: 100%; display: block; }
   background: var(--borda);
 }
 
-.grid-cases { display: grid; gap: 28px; }
+.grid-cases { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 
 .card {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr;
   gap: 0;
   background: var(--linho-card);
   border: 1px solid var(--borda);
@@ -429,7 +429,7 @@ img { max-width: 100%; display: block; }
 /* ---------- Responsivo ---------- */
 
 @media (max-width: 760px) {
-  .card { grid-template-columns: 1fr; }
+  .grid-cases { grid-template-columns: 1fr; }
   .card-figura { min-height: 200px; }
   .card-conteudo { padding: 28px; }
   .sobre-grid { grid-template-columns: 1fr; gap: 32px; }
